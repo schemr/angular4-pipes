@@ -2,6 +2,9 @@
 
 ## Pipes List(/src/app/pipes)
 
+- Shoten(:limit)
+limit 값만큼만 표시하고 '...' 추가
+
 - Linkify 
 문자열에 포함된 링크, 이메일주소를 a tag 변환 ( | linkify )
 
