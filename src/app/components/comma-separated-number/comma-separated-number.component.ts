@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comma-separated-number.component.css']
 })
 export class CommaSeparatedNumberComponent implements OnInit {
-
+  contents = [
+    230000, 200, 9999, 42343, 777888999
+  ]
   constructor() { }
 
   ngOnInit() {

@@ -1,7 +1,13 @@
 <div class="row">
   <div class="col-md-12">
     <h2>
-      Linkify
+      Linkify (value | linkify)
     </h2>
+    <p class="bg-info" style="padding:10px">[innerHtml] 를 이용해서 주입해야 a tag 가 동작함</p>
+    <p>contents : {{contents | json}}</p>
+    <p>pipe( {{example}} )</p>
+    <ul>
+      <li *ngFor="let content of contents" [innerHtml]="content.text | linkify"></li>
+    </ul>
   </div>
 </div>

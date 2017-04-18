@@ -8,11 +8,11 @@ limit 값만큼만 표시하고 '...' 추가
 - Linkify 
 문자열에 포함된 링크, 이메일주소를 a tag 변환 ( | linkify )
 
-- Base64Decode
-base64 인코딩된 문자열을 디코딩해서 표현 ( | base64decode )
-
 - CommaSeparatedNumber ( | commaSeparatedNumber )
 숫자를 천단위로 구분하여 콤마로 구분하여 표현
+
+- Base64Decode (예정)
+base64 인코딩된 문자열을 디코딩해서 표현 ( | base64decode )
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
